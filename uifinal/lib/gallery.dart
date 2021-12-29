@@ -79,7 +79,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                         child: Container(
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage('images/gogreen.jpg'),
+                                image: AssetImage('images/gogreen.jpg',),
                                 fit: BoxFit.cover),
                           ),
                         ),
@@ -115,7 +115,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children:[
                   RaisedButton(
-                    child: const Text(" Button 1 "),
+                    child: const Text("Recents"),
                     onPressed: () {
                       setState(() {
                         Navigator.push(context, MaterialPageRoute(builder: (context)=>Camera()));
@@ -129,7 +129,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   ),
 
                   RaisedButton(
-                    child: const Text(" Button 2 "),
+                    child: const Text("Whatsapp"),
                     onPressed: () {
                       setState(() {
                         Navigator.push(context, MaterialPageRoute(builder: (context)=>Camera()));
