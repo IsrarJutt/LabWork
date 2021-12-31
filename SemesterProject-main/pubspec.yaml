@@ -1,0 +1,51 @@
+name: uiapp1
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  datetime_picker_formfield: ^0.1.8
+  flutter:
+    sdk: flutter
+  tflite: ^1.1.2
+  provider:
+  image_picker:
+  splashscreen:
+  animated_splash_screen:
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+
+flutter_native_splash:
+  image: "images/11.png"
+  color: "42a5f5"
+
+
+
+flutter_icons:
+  image_path: "images/11.png"
+  android: true
+  ios: true
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+
+
+    - assets/labels.txt
+    - assets/model.tflite
+    - images/
